@@ -75,8 +75,9 @@ li {
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 60px 150px;
+    padding: 40px 150px 100px;
     min-width: 830px;
+    gap: 10px;
 }
 
 .hero-secondary-item-container {
@@ -102,4 +103,25 @@ li {
 
 .item-description {
     text-align: center;
+}
+
+/*quote section*/
+
+.quote-section {
+    background-color: #e5e7eb;
+    padding: 100px 150px;
+    min-width: 830px;
+}
+
+.quote {
+    font-size: 36px;
+    color: #1f2937;
+    font-weight: 300;
+    padding: 0px 100px;
+}
+
+.signature {
+    text-align: end;
+    font-weight: 700;
+    padding: 0px 100px;
 }
