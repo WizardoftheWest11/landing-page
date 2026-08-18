@@ -125,3 +125,36 @@ li {
     font-weight: 700;
     padding: 0px 100px;
 }
+
+/*call section*/
+
+.call-section {
+    min-width: 830px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 100px 150px;
+}
+
+.call-container {
+    background-color: #3882f6;
+    border-radius: 10px;
+    flex: 1 0 830px;
+    padding: 20px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.call-container-left {
+    color: #f9faf8;
+}
+
+.call-container-button {
+    background-color: #3882f6;
+    color: #f9faf8;
+    border-radius: 5px;
+    border: 2px solid white;
+    padding: 8px 20px; 
+    max-height: max-content;
+}
